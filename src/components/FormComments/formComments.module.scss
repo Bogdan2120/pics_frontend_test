@@ -1,0 +1,29 @@
+.formCommensts {
+    position: relative;
+    width: 100%;
+}
+
+.inputText {
+    width: 100%;
+    height: 70px;
+    border-color: rgb(223, 157, 2);
+    border-radius: 15px;
+}
+
+
+.btnSybmit {
+    position: absolute;
+    width: auto;
+    height: 40px;
+    bottom: -15px;
+    right: 0;
+    background: rgb(223, 157, 2);
+    border: 0;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    &:hover {
+        background: rgb(234, 240, 49);
+    }
+}

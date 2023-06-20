@@ -2,20 +2,18 @@ import { combineReducers } from '@reduxjs/toolkit';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
-import shopsReducer from './shops/shopsSlice';
-import basketReduser from './basket/basketSlice.js';
+import commentsReduser from './comments/commentsSlice';
 
 const persistConfig = {
-  key: 'basket',
+  key: 'textComment',
   storage,
-  whitelist: ['foods'],
+  whitelist: ['commentText'],
 };
 
-const persistedBasketReducer = persistReducer(persistConfig, basketReduser);
+const persistedCommentsReduser = persistReducer(persistConfig, commentsReduser);
 
 const rootReducer = combineReducers({
-  shops: shopsReducer,
-  basket: persistedBasketReducer,
+  comments: persistedCommentsReduser,
 });
 
 export default rootReducer;

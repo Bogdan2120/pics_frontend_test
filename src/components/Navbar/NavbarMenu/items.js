@@ -9,14 +9,8 @@ const items = [
   },
   {
     id: nanoid(),
-    text: 'Shop',
-    link: '/shop/kfc',
-    private: true,
-  },
-  {
-    id: nanoid(),
-    text: 'Shoping cart',
-    link: '/shop-cart',
+    text: 'Comments',
+    link: '/comments',
     private: true,
   },
 ];

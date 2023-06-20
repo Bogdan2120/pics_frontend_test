@@ -1,0 +1,56 @@
+.contsinerComments {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    margin-bottom: 20px;
+}
+
+.bodyComent {
+    width: 100%;
+    min-height: 50px;
+    position: relative;
+    padding: 20px 15px 15px;
+    background-color: rgb(234, 240, 49);
+    box-shadow: 6px 6px 15px 0px rgba(158, 158, 158, 1);
+    border-radius: 15px;
+}
+
+.bodyUser {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: -25px;
+}
+
+// .iconUser {
+//     width: 45px;
+//     height: 45px;
+// }
+
+.nickUser {
+    display: flex;
+    height: 25px;
+    padding: 10px;
+    background: rgb(223, 157, 2);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.btnDel {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    top: -5px;
+    right: -5px;
+    border-radius: 100%;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(213, 2, 2);
+    }
+}

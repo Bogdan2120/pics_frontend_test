@@ -9,7 +9,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/ElifTech_frontend">
+    <BrowserRouter basename="/pics_frontend_test">
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <App />

@@ -6,7 +6,7 @@ function NavbarLogo() {
   return (
     <div>
       <Link to="/" className={styles.logo}>
-        FOODI
+        SITE
       </Link>
     </div>
   );
