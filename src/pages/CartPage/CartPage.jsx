@@ -25,7 +25,7 @@ const CartPage = () => {
     if (status === '201') {
       console.log();
     }
-  }, [amountFood]);
+  }, [amountFood, status]);
 
   const submitCard = e => {
     e.preventDefault();
