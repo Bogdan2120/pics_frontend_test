@@ -1,0 +1,23 @@
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0px 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+    color: #010379;
+    padding: 10px 15px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:global(.active) {
+    color: #ff6f00;
+}
