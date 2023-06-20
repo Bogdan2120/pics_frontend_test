@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpics_fronend=self.webpackChunkpics_fronend||[]).push([[714],{6714:function(e,n,c){c.r(n),c.d(n,{default:function(){return r}});var s="homePage_sectionHome__4iobm",a="homePage_container__R3UMw",i="homePage_welcom__h1Lmm",o=c(184),r=function(){return(0,o.jsx)("div",{className:s,children:(0,o.jsx)("div",{className:a,children:(0,o.jsx)("p",{className:i,children:"Welcome"})})})}}}]);
+//# sourceMappingURL=714.76d7321e.chunk.js.map
